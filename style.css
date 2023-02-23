@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Orbitron:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    /* font-family: 'Orbitron', sans-serif; */
+}
+
+header {
+    background-color: lightblue;
+    height: 50px;
+}
+
+nav {
+    /*border: 3px dotted black;*/
+    height: inherit;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.about_us {
+    display: flex;
+    justify-content: center;
+}
+
+.about_us img{
+    width: 700px;
+}
+
+.about_us_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_description * {
+    padding: 5px;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_game > * {
+    text-align: center;
+}
+
+.my_game input, .my_game button {
+    border: none;
+    margin: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+    width: max-content;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+}
+
+.my_game input {
+    outline: none;
+    background-color: lightblue;
+}
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+    margin: 30px;
+}
+
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.choosed_element {
+    border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+}
+
+.posts_block button {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+}
+
+.posts_block-container > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+footer {
+    text-align: center;
+}
